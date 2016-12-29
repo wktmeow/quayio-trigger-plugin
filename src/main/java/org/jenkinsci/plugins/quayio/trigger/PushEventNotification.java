@@ -39,10 +39,10 @@ public class PushEventNotification {
         this.repository = payload.getString("repository");
         Iterator<String> it;
         try {
-            it = payload.getJSONObject("updated_tags").keys();
+            it = payload.getJSONObject("docker_tags").keys();
         } catch (JSONException je) {
-            /* updated_tags is not an objet, it may be an array */
-            it = payload.getJSONArray("updated_tags").iterator();
+            /* docker_tags is not an object, it may be an array */
+            it = payload.getJSONArray("docker_tags").iterator();
         }
         while (it.hasNext()) {
             String key = it.next();
