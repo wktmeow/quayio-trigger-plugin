@@ -6,7 +6,7 @@
   "homepage": "https://quay.io/repository/mynamespace/repository",
   "visibility": "private",
 
-  "updated_tags": [
+  "docker_tags": [
     "latest",
     "v1.7"
   ],

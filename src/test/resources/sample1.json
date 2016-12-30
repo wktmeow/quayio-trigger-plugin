@@ -6,7 +6,7 @@
   "homepage": "https://quay.io/repository/mynamespace/repository",
   "visibility": "public",
 
-  "updated_tags": {
+  "docker_tags": {
     "latest": "b750fe79269d2ec9a3c593ef05b4332b1d1a02a62b4accb2c21d589ff2f5f2dc"
   },
   "pushed_image_count": 10,
